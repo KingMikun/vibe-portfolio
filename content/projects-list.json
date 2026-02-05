@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Project Alpha",
+    "description": "A clean approach to solving complex problems. Built with intention, shipped with confidence.",
+    "image": "",
+    "link": "https://your-project-link.com",
+    "tags": [
+      "React",
+      "Node.js",
+      "Design"
+    ],
+    "featured": true,
+    "order": 1
+  },
+  {
+    "title": "Project Beta",
+    "description": "Finding the signal in the noise. Data-driven insights that actually matter.",
+    "image": "",
+    "link": "https://your-project-link.com",
+    "tags": [
+      "Python",
+      "Analytics",
+      "API"
+    ],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "title": "Project Gamma",
+    "description": "Speed meets quality. MVP to market in record time without cutting corners.",
+    "image": "",
+    "link": "https://your-project-link.com",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Vercel"
+    ],
+    "featured": true,
+    "order": 3
+  }
+]
