@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: kingmikun/myportfolio
+  repo: kingmikun/vibe-portfolio
   branch: main # Change to your branch name
 
 media_folder: "images/uploads"
