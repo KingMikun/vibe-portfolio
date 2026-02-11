@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: KingMikun/vibe-portfolio
-  branch: main # Change to your branch name
+  branch: main
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -46,3 +46,14 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", default: []}
       - {label: "Featured", name: "featured", widget: "boolean", default: false}
       - {label: "Order", name: "order", widget: "number", default: 0}
+```
+
+---
+
+## Step 3: Update GitHub OAuth App Callback URL
+
+1. Go to https://github.com/settings/developers
+2. Click **OAuth Apps** → **Vibe Portfolio CMS**
+3. Change **Authorization callback URL** to:
+```
+   https://mhikuunn.netlify.app/admin/
