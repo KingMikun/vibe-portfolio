@@ -2,6 +2,8 @@ backend:
   name: github
   repo: KingMikun/vibe-portfolio
   branch: main
+  base_url: https://mhikuun.vercel.app
+  auth_endpoint: api/auth
 
 media_folder: public/images/uploads
 public_folder: /images/uploads
@@ -40,12 +42,15 @@ collections:
           - label: Twitter
             name: twitter
             widget: string
+            required: false
           - label: GitHub
             name: github
             widget: string
+            required: false
           - label: LinkedIn
             name: linkedin
             widget: string
+            required: false
   - name: projects
     label: Projects
     folder: public/content/projects
