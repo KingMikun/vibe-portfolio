@@ -1,0 +1,14 @@
+.about-section {
+  padding: 8rem 0;
+}
+
+.about-content {
+  max-width: 700px;
+}
+
+.about-content p {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  white-space: pre-line;
+}

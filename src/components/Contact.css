@@ -1,0 +1,35 @@
+.contact-section {
+  padding: 8rem 0;
+  background: var(--bg-secondary);
+}
+
+.contact-links {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  padding: 1rem 2rem;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-weight: 500;
+  transition: border-color 0.2s;
+}
+
+.contact-links a:hover {
+  border-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .contact-links {
+    flex-direction: column;
+  }
+  
+  .contact-links a {
+    text-align: center;
+  }
+}
