@@ -1,8 +1,0 @@
-[build]
-  command = "node build-projects.js"
-  publish = "."
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
