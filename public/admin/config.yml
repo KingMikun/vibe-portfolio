@@ -1,3 +1,5 @@
+local backend: true
+
 backend:
   name: github
   repo: KingMikun/vibe-portfolio
