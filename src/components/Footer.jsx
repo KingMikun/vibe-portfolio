@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; {year} Your Name. Built with intention.</p>
+        <p>&copy; {year} The King. Built with intention.</p>
       </div>
     </footer>
   )
