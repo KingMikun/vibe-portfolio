@@ -1,4 +1,4 @@
 ---
-title: The King's Portfolio
-subtitle: Check through
+title: The King
+subtitle: Founder, Partnerships Manager at Bullish Ones
 ---
