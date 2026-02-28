@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: About
 ---
 
 A developer focused on clarity and precision. I build things that work, explain what others miss, and ship before the crowd catches on.
